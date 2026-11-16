@@ -1,0 +1,13 @@
+{
+  "docker_image": "python:3.12-slim",
+  "timeout_seconds": 1800,
+  "memory_mb": 4096,
+  "cpus": 2,
+  "pids_limit": 256,
+  "commands": [
+    {
+      "label": "baseline tests",
+      "command": "python -m pytest -q"
+    }
+  ]
+}

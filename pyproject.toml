@@ -1,0 +1,18 @@
+[project]
+name = "terminal-task-factory"
+version = "0.1.0"
+description = "Prototype architecture for generating terminal-agent tasks"
+requires-python = ">=3.10"
+dependencies = ["python-dotenv>=1.0"]
+
+[project.optional-dependencies]
+stage-b = ["anthropic>=0.50", "mcp>=1.28,<2"]
+stage-i = ["certifi>=2025.1.31", "claude-agent-sdk>=0.2.140"]
+stage-i-claude = ["claude-agent-sdk>=0.2.140"]
+stage-k = ["anthropic>=0.50", "claude-agent-sdk>=0.2.140"]
+
+[project.scripts]
+taskforge = "taskforge.cli:main"
+
+[tool.setuptools]
+packages = ["taskforge"]

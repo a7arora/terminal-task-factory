@@ -1,0 +1,3 @@
+# Stage I should replace these comments with exact direct dependency pins, one per line.
+# Example format only: package-name==1.2.3
+# Stage J resolves transitive packages, downloads compatible wheels, hashes them, and installs offline.

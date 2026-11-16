@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "base_image": "python:3.12-slim",
+  "requirements_file": "requirements.in",
+  "build_timeout_seconds": 3600,
+  "timeout_seconds": 1800,
+  "memory_mb": 4096,
+  "cpus": 2,
+  "pids_limit": 256,
+  "build_command": [],
+  "reference_solution_command": ["python", "/reference/solve.py"],
+  "grader_command": ["python", "/grader/grade.py", "/workspace"],
+  "alternate_solutions": [
+    {
+      "name": "independent-method",
+      "workspace_files": {
+        "alternate.py": "# Replace this sample with a complete independent implementation.\n"
+      },
+      "command": ["python", "alternate.py"]
+    }
+  ],
+  "negative_cases": [
+    {
+      "name": "missing-required-output",
+      "workspace_files": {
+        "output.txt": "deliberately incorrect fixture\n"
+      },
+      "expected_failed_checks": ["required-output-check"]
+    }
+  ]
+}

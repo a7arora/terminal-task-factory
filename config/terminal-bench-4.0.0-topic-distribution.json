@@ -1,0 +1,72 @@
+{
+  "dataset": "terminal-bench/terminal-bench@4.0.0",
+  "source": "User-provided Terminal-Bench 4.0.0 category chart",
+  "task_count": 66,
+  "sampling": "independent weighted draws at each hierarchy level",
+  "categories": {
+    "Software": {
+      "count": 18,
+      "subcategories": {
+        "Systems": 5,
+        "Frontend": 4,
+        "Algorithms": 3,
+        "Data engineering": 3,
+        "Databases": 3
+      }
+    },
+    "Science": {
+      "count": 14,
+      "subcategories": {
+        "Chemistry": 4,
+        "Biology": 3,
+        "Math": 2,
+        "Physics": 2,
+        "Earth": 1,
+        "Linguistics": 1,
+        "Robotics": 1
+      }
+    },
+    "ML": {
+      "count": 11,
+      "subcategories": {
+        "Inference": 4,
+        "Evaluation": 3,
+        "Training": 3,
+        "Kernels": 1
+      }
+    },
+    "Operations": {
+      "count": 9,
+      "subcategories": {
+        "Claims": 3,
+        "Logistics": 2,
+        "Compliance": 1,
+        "Finance": 1,
+        "Marketing": 1,
+        "Supply chain": 1
+      }
+    },
+    "Security": {
+      "count": 5,
+      "subcategories": {
+        "Cryptography": 2,
+        "Forensics": 2,
+        "AppSec": 1
+      }
+    },
+    "Hardware": {
+      "count": 5,
+      "subcategories": {
+        "CAD": 4,
+        "RTL": 1
+      }
+    },
+    "Media": {
+      "count": 4,
+      "subcategories": {
+        "Design": 2,
+        "Music": 2
+      }
+    }
+  }
+}

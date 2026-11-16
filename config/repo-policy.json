@@ -1,0 +1,12 @@
+{
+  "minimum_stars": 200,
+  "preferred_stars": 500,
+  "approved_permissive_licenses": [
+    "MIT",
+    "Apache-2.0",
+    "BSD-2-Clause",
+    "BSD-3-Clause",
+    "ISC",
+    "0BSD"
+  ]
+}

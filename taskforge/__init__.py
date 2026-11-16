@@ -1,0 +1,1 @@
+"""Terminal task generation prototype."""
